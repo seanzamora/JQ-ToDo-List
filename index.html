@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Todo List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FontAwesome Icon CDN -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'/>
+    <!-- jQuery CDN -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <!-- Jquery Sortable Library -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-sortable/0.9.13/jquery-sortable-min.js'></script>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- Main Javascript -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Another To Do List</h1>
+        <ul id="task-list">
+          <li>
+            <span>Wear shirt that says "Life". Hand out lemons on street corner.</span>
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+          </li>
+          <li>
+            <span>Hire two private investigators. Get them to follow each other.</span>
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+          </li>
+          <li>
+            <span>Make vanilla pudding. Put in mayo jar. Eat in public.</span>
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+          </li>
+        </ul>
+        <button class="btn" id="add-task">Add Task</button>
+        <div id="todos"></div>
+      </div>
+</body>
+</html>
